@@ -23,11 +23,34 @@ console.log(`car * car = ${car*car}`)
 
 console.log(Math.max(2, 4));
 
-var prompt = require("prompt");
-let theNumber = Number(prompt("Pick a number"));
+// let theNumber = Number(prompt("Pick a number"));  Only in browser -- prompt inherent for browsers
+let theNumber = 10;
 if (!Number.isNaN(theNumber)) {
   console.log("Your number is the square root of " +
               theNumber * theNumber);
 }
 
+
+if (1 + 1 == 2) console.log("It's true");
+// → It's true
+
+
+
+
+for (let n =0; n <11; n +=1){
+    console.log(n);
+
+    if (n / 9 == 1){
+        break;
+    }
+}
+
+
+const treeLeaf = "#";
+for (let i = 1; i <=7; i++){
+    console.log(treeLeaf.repeat(i))
+}
+
+
+// Chapter 3 
 
